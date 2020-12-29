@@ -1,0 +1,150 @@
+body{
+    margin:0;
+    background: linear-gradient(#1F1C2C,#928DAB);
+}
+/* Styles to Section */
+section{
+    width:70%;
+    margin:5% auto;
+    padding:10px;
+    background:linear-gradient(#FFEFBA, #333333);
+}
+/* Desccription Part */
+#heading{
+    margin-left:35%;
+}
+#desc{
+    margin-bottom:10px;
+    
+}
+#text{
+    width:100%;
+    height:50px;
+    border:1px solid saddlebrown;
+    border-radius:10px;
+    padding-left:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Category Part */
+#categ{
+    margin-left:5%;
+}
+.field{
+    width:100%;
+    display:flex;
+}
+.category{
+    width:50%;
+    margin-bottom:2px;
+}
+#categories{
+    cursor:pointer;
+}
+.category select{
+    width:80%;
+    height:35px;
+    border:1px solid saddlebrown;
+    border-radius:10px;
+    padding-left:10px;
+    box-sizing: border-box;
+    margin-bottom:20px;
+}
+
+/* Date Part */
+.due-date{
+    width:50%;
+    margin-bottom:2px;
+}
+#dates{
+    width:80%;
+    cursor:pointer;
+    height:35px;
+    padding:5px;
+    border:1px solid saddlebrown;
+    border-radius:10px;
+    box-sizing: border-box;
+    margin-bottom:20px;
+}
+/* ADD Task Button */
+.button-segment{
+    margin-left:40%;
+}
+.button-segment button{
+    height:70px;
+    width:140px;
+    border:1px solid red;
+    letter-spacing: 0.8px;
+    font-weight: bold;
+}
+.done{
+    background-color:#dc3545;
+    border:1px solid #dc3545;
+    border-radius:10px;
+    color:white;
+    height:35px;
+    width:120px;
+    margin-bottom:10px;
+    border:1px solid red;
+    letter-spacing: 0.8px;
+    font-weight: bold;
+}
+/* Tasks Card */
+.tasks{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.del{
+    font-weight:bold;
+}
+.card{
+    margin:10px 10px 10px 5px;
+    border:1px solid saddlebrown;
+    width:30%;
+    transition: 1s ease-in-out;
+    box-shadow: 5px 5px rgba(0, 98, 90, 0.4),
+    10px 10px rgba(0, 98, 90, 0.3),
+    15px 15px rgba(0, 98, 90, 0.2),
+    20px 20px rgba(0, 98, 90, 0.1),
+    25px 25px rgba(0, 98, 90, 0.05);
+}
+.card-header{
+    background:linear-gradient(#649173, #DBD5A4);
+}
+.card-title{
+    text-transform: uppercase;
+    font-weight:bold;
+
+}
+.card-body{
+    background:linear-gradient(#CC95C0,#DBD4B4,#333333);
+}
+.card-text{
+    font-size:1.2rem;
+}
+.card-footer{
+    font-weight:bold;
+    margin-left:10%;
+}
+/* common classes */
+.bold{
+    font-weight:bold;
+}
+.mrg_wdh{
+    width:95%;
+    margin:auto;
+}
+.shadow{
+    /* -moz-box-shadow:inset 2px 2px 5px #888;
+    box-shadow:inset 2px 2px 5px #888; */
+    border: none;
+}
+.background-hover:hover{
+    background-color:#FFFFE0;
+}
+/* Animation */
+.card:hover{
+    transform:scale(1.03) translateY(-10px);
+}
